@@ -42,10 +42,10 @@ Because this project uses the `fetch` API to retrieve data from the OSRS Wiki, m
 
 **Option 1: Python (Recommended)**
 ```bash
-# Navigate to the project directory
+## Navigate to the project directory
 cd gebuddy.github.io
 
-# Python 3
+## Python 3
 python -m http.server 8000
 
 Then open http://localhost:8000 in your browser.
