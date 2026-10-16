@@ -47,3 +47,43 @@ cd gebuddy.github.io
 
 # Python 3
 python -m http.server 8000
+
+Then open http://localhost:8000 in your browser.
+Option 2: VS Code
+
+    Install the Live Server
+     extension.
+    Right-click index.html and select "Open with Live Server".
+
+Option 3: Node.js
+
+bash
+1
+
+🏗️ Technical Architecture
+G.E. Buddy is intentionally built to be as simple and portable as possible:
+
+    Zero Dependencies: No React, Vue, jQuery, or build tools (Webpack/Vite). Just pure, modern Vanilla JavaScript (ES6+).
+    Single File: All HTML, CSS, and JavaScript (including embedded base64 SVG/WebP assets) reside in a single index.html file for effortless deployment.
+    Styling: Modern CSS using Custom Properties (Variables), CSS Grid, Flexbox, and color-mix() for glassmorphism effects.
+    Data Source: OSRS Wiki Price API
+     (Unofficial, but the community standard).
+    Storage: Uses localStorage for caching and saving user preferences locally.
+
+🛡️ Privacy
+G.E. Buddy is 100% client-side. 
+
+    No analytics, trackers, or cookies are used.
+    No data is ever sent to a backend server.
+    Your watchlist and hidden items stay on your device unless you explicitly choose to export them via the Settings Code.
+
+⚠️ Disclaimer
+G.E. Buddy is a fan-made project and is not affiliated with, endorsed by, or connected to Jagex Ltd. in any way. "Old School RuneScape" and "RuneScape" are registered trademarks of Jagex Ltd. All item data and icons are sourced from the OSRS Wiki
+ under their respective licenses.
+🤝 Contributing
+Found a bug or have a feature request? Feel free to open an Issue
+ or submit a Pull Request
+. Since it's a single file, making quick tweaks and testing them is incredibly straightforward!
+📜 License
+This project is open-source and available under the MIT License
+
